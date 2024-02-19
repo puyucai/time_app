@@ -12,6 +12,7 @@ def get_time():
     current_time = datetime.datetime.now()
     return current_time.strftime("%Y-%m-%d %H:%M:%S")
 
+
 app.run(host='0.0.0.0',
         port=8080,
         debug=True)
